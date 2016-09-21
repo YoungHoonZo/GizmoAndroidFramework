@@ -13,11 +13,8 @@ Change Logs
 
 1. BaseApplication apply.
 2. BaseActivity apply.
-
 3. Network library retrofit2.1 apply.
-
 4. Toast Customizing.
-
 5. AlertDialog customizing and user alert modularity.
 
  
