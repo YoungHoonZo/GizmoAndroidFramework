@@ -7,9 +7,10 @@
 
 When easy, and could immediately tap into Android programming and development function, which aims to implement the framework.
 
-===================================================================================
+----------------------------------------------------------
 2016.09.21
 1. BaseApplication apply.
+
 2. BaseActivity apply.
 
 3. Network library retrofit2.1 apply.
