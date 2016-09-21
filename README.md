@@ -4,3 +4,6 @@
 프레임워크라고 거창하게 이름을 붙이긴 했지만, 공개 되어진 오픈소스를 최대한 활용하여
 
 구성할 예정임.
+
+
+When easy, and could immediately tap into Android programming and development function, which aims to implement the framework.
