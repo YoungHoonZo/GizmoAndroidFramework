@@ -3,7 +3,7 @@
 
 프레임워크라고 거창하게 이름을 붙이긴 했지만, 공개 되어진 오픈소스들 적용 할거라서 프레임워크 하기는 좀 부끄럽네요 ^^;;
 
-사용 하실 분들은 편하게 가져다 쓰세요...
+사용 하실 분들은 가져다 쓰세요...
 
 When easy, and could immediately tap into Android programming and development function, which aims to implement the framework.
 Change Logs
