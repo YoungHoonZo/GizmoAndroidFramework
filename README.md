@@ -7,6 +7,7 @@
 
 When easy, and could immediately tap into Android programming and development function, which aims to implement the framework.
 
+Change Logs
 ----------------------------------------------------------
 2016.09.21
 1. BaseApplication apply.
