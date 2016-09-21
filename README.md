@@ -10,6 +10,7 @@ When easy, and could immediately tap into Android programming and development fu
 Change Logs
 ----------------------------------------------------------
 2016.09.21
+
 1. BaseApplication apply.
 
 2. BaseActivity apply.
