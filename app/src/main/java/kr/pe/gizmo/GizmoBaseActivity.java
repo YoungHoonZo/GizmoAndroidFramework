@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import org.json.JSONObject;
 
+import kr.pe.gizmo.vo.ActorVo;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Call;
@@ -259,7 +260,20 @@ public class GizmoBaseActivity extends AppCompatActivity {
      * @param call 서버 통신의 위한 Call의 객체 통신에 필요한 service를 가지고 있다.
      * @param callback 서버 통신후 결과에 대한 콜백 객체
      */
-    public void doActionResult(Call call, Callback<JSONObject> callback){
+    public void doActionMapResult(Call call, Callback<JSONObject> callback){
+
+        if(!this.isFinishing()) {
+            waitDialog.show();
+            call.enqueue(callback);
+        }
+    }
+
+    /**
+     * 네트워크 통신을 시작 하기전에 dialog를 보여주기 때문에 통신이 끝나는 callback에서 반드시 closeWaitDialog를 호출해줘야 한다.
+     * @param call 서버 통신의 위한 Call의 객체 통신에 필요한 service를 가지고 있다.
+     * @param callback 서버 통신후 결과에 대한 콜백 객체
+     */
+    public void doActionVoResult(Call<ActorVo> call, Callback<ActorVo> callback){
 
         if(!this.isFinishing()) {
             waitDialog.show();

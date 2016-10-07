@@ -30,14 +30,13 @@ public class GizmoBaseApplication extends Application{
     public static final boolean DEBUG = false;
 
     // 접속할 서버 페이지. 운영서버
-    public final String SERVER_ROOT_REAL = "http://1.234.20.171:8081";
+    public final String SERVER_ROOT_REAL = "http://192.168.0.253:8080/GizmoFramework/";
 
     // 접속할 서버 페이지. 테스트 서버
-    public final String SERVER_ROOT_TEST = "http://1.234.20.164:8080";
+    public final String SERVER_ROOT_TEST = "http://192.168.0.253:8080/GizmoFramework/";
 
     private static GizmoBaseApplication instance;
     private ShPreference pref;
-
 
     @Override
     public void onCreate(){

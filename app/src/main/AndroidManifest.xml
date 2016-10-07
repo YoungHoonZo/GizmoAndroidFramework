@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="kr.pe.gizmo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".GizmoBaseApplication"
         android:icon="@mipmap/ic_launcher"
@@ -15,6 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RetrofitMapActivity" />
+        <activity android:name=".RetrofitVoActivity"></activity>
     </application>
 
 </manifest>
