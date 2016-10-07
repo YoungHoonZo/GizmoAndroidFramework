@@ -4,6 +4,7 @@
 프레임워크라고 거창하게 이름을 붙이긴 했지만, 공개 되어진 오픈소스들 적용 할거라서 프레임워크 하기는 좀 부끄럽네요
 
 쓰는 사람이 있을라나 몰겠지만 사용 하실 분들은 가져다 쓰세요...
+(근데 언제 완성 하지...ㅡㅡ;;;; 완성 할수 있기는 한건가?? 쩝..ㅡㅡ;;)
 
 When easy, and could immediately tap into Android programming and development function, which aims to implement the framework.
 Change Logs
