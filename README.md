@@ -19,5 +19,6 @@ Change Logs
 5. AlertDialog customizing and user alert modularity.
 
 2016.10.07
+
  Retrofit2 Map을 이용해서 결과 받는 예제와 Vo(Model??) Class이용해서 결과값 받아 ListView에 보여주는
  예제 개발 완료.
