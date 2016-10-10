@@ -27,5 +27,5 @@ Change Logs
 적용된 오픈소스 or 적용 예정 오픈소스.
 -----------------------
 1. Retrofit 2.1 - Network (https://square.github.io/retrofit/)
-2. ButterKnife 8.4.0 - Field and method binding use Annotation for Android views
+2. ButterKnife 8.4.0 - Field and method binding use Annotation for Android views (http://jakewharton.github.io/butterknife/) 
 3. CalendarView - Next Release Candidate
