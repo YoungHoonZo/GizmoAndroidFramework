@@ -12,8 +12,8 @@ Change Logs
 ----------------------------------------------------------
 2016.09.21
 
-1. BaseApplication apply.
-2. BaseActivity apply.
+1. Base Application apply.
+2. Base Activity apply.
 3. Network library Retrofit2.1 apply.
 4. Toast Customizing.
 5. AlertDialog customizing and user alert modularity.
@@ -26,4 +26,6 @@ Change Logs
 
 적용된 오픈소스 or 적용 예정 오픈소스.
 -----------------------
-1. Retrofit 2.1 - Network 
+1. Retrofit 2.1 - Network (https://square.github.io/retrofit/)
+2. ButterKnife 8.4.0 - Field and method binding use Annotation for Android views
+3. CalendarView - Next Release Candidate
