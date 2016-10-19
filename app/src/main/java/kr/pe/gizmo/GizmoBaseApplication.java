@@ -11,7 +11,7 @@ import kr.pe.gizmo.common.ShPreference;
  * Dex Method 최대 갯수가 65535개 이라서
  * 외부 라이브러리를 추가 하다 보면 초과 하는 경우가 생긴다.
  * 이럴땐 Application이 아니라 MultiDexApplication를 상속 해야 된다.
- * MultiDexApplication를 사용하기 위해선 app 레벨의 build.gradle에
+ * MultiDexApplication를 사용하기 위해선 Module Level의 build.gradle에
   android {
      defaultConfig {
         multiDexEnabled true
@@ -19,7 +19,7 @@ import kr.pe.gizmo.common.ShPreference;
   }
 
  multiDexEnabled를 true로 해줘야 하고
- com.android.support:multidex:1.0.0 라이브러리를 추가 해야 한다.
+ Module Level build.gradle에  com.android.support:multidex:1.0.0 라이브러리를 추가 해야 한다.
 
  */
 public class GizmoBaseApplication extends Application{
@@ -30,10 +30,10 @@ public class GizmoBaseApplication extends Application{
     public static final boolean DEBUG = false;
 
     // 접속할 서버 페이지. 운영서버
-    public final String SERVER_ROOT_REAL = "http://192.168.0.253:8080/GizmoFramework/";
+    public final String SERVER_ROOT_REAL = "http://www.gizmo80.com:8080/GizmoFramework/";
 
     // 접속할 서버 페이지. 테스트 서버
-    public final String SERVER_ROOT_TEST = "http://192.168.0.253:8080/GizmoFramework/";
+    public final String SERVER_ROOT_TEST = "http://www.gizmo80.com:8080/GizmoFramework/";
 
     private static GizmoBaseApplication instance;
     private ShPreference pref;
